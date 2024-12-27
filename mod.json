@@ -1,0 +1,59 @@
+{
+	"geode": "4.1.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "thebearodactyl.variable_manager",
+	"name": "Variable Manager",
+	"version": "v1.0.0",
+	"developer": "thebearodactyl",
+	"description": "manage variables from various different classes (such as jump height, speed, and gravity)",
+	"settings": {
+		"player-object": {
+			"type": "title",
+			"name": "PlayerObject"
+		},
+		"set_scale_x": {
+			"type": "float",
+			"name": "set scale x",
+			"default": 1.0,
+			"control": {
+				"slider": true
+			}
+		},
+		"set_scale_y": {
+			"type": "float",
+			"name": "set scale y",
+			"default": 1.0,
+			"control": {
+				"slider": true
+			}
+		},
+		"set_visible": {
+			"type": "bool",
+			"name": "set visible",
+			"default": true
+		},
+		"set_rotation": {
+			"type": "float",
+			"name": "set rotation",
+			"default": 0.0,
+			"control": {
+				"slider": true
+			}
+		},
+		"set_platformer": {
+			"type": "bool",
+			"name": "set platformer",
+			"default": false
+		}
+	},
+	"resources": {
+		"sprites": [
+			"resources/*.png"
+		]
+	}
+}
